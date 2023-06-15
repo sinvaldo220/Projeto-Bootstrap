@@ -1,0 +1,29 @@
+:root{
+    --color-blue-1: #11429e;
+    --color-blue-2: #6583b9;
+    --color-light: #f6f9ff;
+    --margin-top: 80px;
+
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navbar-toggler:focus, .navbar-toggler:not(focus){
+    color: var(--color-blue-1);
+    box-shadow: none;
+    border: none;
+}
+
+.logo-text{
+    font-size: 1.8rem;
+    color: var(--color-blue-1);
+    font-weight: 700;
+}
+
+.nav-item a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
