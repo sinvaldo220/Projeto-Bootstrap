@@ -27,3 +27,52 @@ body{
     font-size: 18px;
 }
 
+.navbar-brand:hover, .nav-item:hover{
+    color: var(--color-blue-2);
+}
+
+.heading-pages{
+    color: var(--color-blue-1);
+}
+
+.arrow{
+    position: relative;
+    top: 2px;
+}
+
+.my-arrow:hover .arrow{
+    animation: arrow .5s infinite;
+}
+
+.my-image{
+    animation: imagem 3s infinite ease-in;
+}
+
+ @keyframes arrow {
+    50%{
+        transform: translateX(7px);
+    }
+    100%{
+transform: translateX(-5px);
+    }
+}
+
+
+@keyframes imagem {
+
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+transform: translateY(-10px);
+    }
+}
+
+img{
+    position: relative;
+    top: -23px;
+    width: 450px;
+}
